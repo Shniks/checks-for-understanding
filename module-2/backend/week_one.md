@@ -1,6 +1,6 @@
 ## Week One - Module 2 Recap
 
-Fork this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON!).
+Fork this repository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON!).
 
 Note: When you're done, submit a PR.
 
@@ -59,7 +59,8 @@ Note: When you're done, submit a PR.
   - <%= %> : Prints the information.
 #### 14. What's an ORM?
   - Object Relational Mapper: can create ruby object from rows, where each row represents an instance of a class with the columns as attributes.
-#### 15. What's the most commonly used ORM in ruby (Sinatra & Rails): ActiveRecord.
+#### 15. What's the most commonly used ORM in ruby (Sinatra & Rails):
+  - ActiveRecord.
 #### 16. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
   - GET '/restaurants': shows a page with all the restaurants.
   - GET '/restaurants/:id': shows a particular restaurant based on id.
