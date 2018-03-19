@@ -79,8 +79,10 @@ Note: When you're done, submit a PR.
 
 ### Review Questions:  
 21. Given a CSV file (“films.csv”) with these headers [id, title, description], how would you load these into your database to create new instances of Film?  
-  - CSV.foreach(/"films.csv", :headers => true, header_converters: symbol) do |data|
-      film = Film.create(title: data[:title], description: data[:description])
+  -  ```ruby
+      CSV.foreach(/"films.csv", :headers => true, header_converters: symbol) do |data|
+          film = Film.create(title: data[:title], description: data[:description])
+     ```
       NB: the id will be created automatically.
 22. Given the following hash:
 ```
