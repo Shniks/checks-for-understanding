@@ -7,7 +7,7 @@ Note: When you're done, submit a PR.
 
 ### Week 2 Questions
 
-####1 . At a high level, what is ActiveRecord? What does it do/allow you to do?  
+#### 1 . At a high level, what is ActiveRecord? What does it do/allow you to do?  
 
   - ActiveRecord is the 'M' in MVC and is a library for working with Relational Databases. It allows us to query our database and is responsible for the logic.  
 
@@ -69,7 +69,7 @@ Now how would you find the owner of the team with an id of 4?
   - sum: sums the data based on a criteria
   - limit and offset: returns a maximum number of records (the limit number) starting from a specified record number (the offset)  
 
-##### 2. Name your three favorite ActiveRecord rake tasks and describe what they do.  
+#### 2. Name your three favorite ActiveRecord rake tasks and describe what they do.  
 
   - rake db:drop = drops the database  
   - rake db:reset = drops, creates, migrates and seeds the database  
