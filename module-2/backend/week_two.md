@@ -63,17 +63,17 @@ Now how would you find the owner of the team with an id of 4?
 
 #### 1. Name your five favorite ActiveRecord methods (i.e. methods your models inherit from ActiveRecord) and describe what they do.  
 
-  - find: returns data based on the id  
-  - count: returns the number of data items
-  - order: orders the records (can be descending or ascending)
-  - sum: sums the data based on a criteria
-  - limit and offset: returns a maximum number of records (the limit number) starting from a specified record number (the offset)  
+  - `find`: returns data based on the id  
+  - `count`: returns the number of data items
+  - `order`: orders the records (can be descending or ascending)
+  - `sum`: sums the data based on a criteria
+  - `limit` and `offset`: returns a maximum number of records (the limit number) starting from a specified record number (the offset)  
 
 #### 2. Name your three favorite ActiveRecord rake tasks and describe what they do.  
 
-  - rake db:drop = drops the database  
-  - rake db:reset = drops, creates, migrates and seeds the database  
-  - rake db:test:prepare = essentially clones the database to conform to the schema to take into account any pending migrations
+  - `rake db:drop` = drops the database  
+  - `rake db:reset` = drops, creates, migrates and seeds the database  
+  - `rake db:test:prepare` = essentially clones the database to conform to the schema to take into account any pending migrations
 
 #### 3. What two columns does `t.timestamps null: false` create in our database?
 
@@ -81,7 +81,7 @@ Now how would you find the owner of the team with an id of 4?
 
 #### 4. In a database that's holding schools and teachers, what will be the relationship between schools and teachers?  
 
-  - A school has_many teachers and a teacher belongs_to a school  
+  - A school `has_many` teachers and a teacher `belongs_to` a school  
 
 #### 5. In the same database, what will you need to do to create this relationship (draw a schema diagram)?  
 
@@ -108,8 +108,7 @@ Now how would you find the owner of the team with an id of 4?
 - Information that is being repeated  
 
 ### Self Assessment:
-Choose One:
+
 * I was able to answer most questions independently, but utilized outside resources for a few
 
-Choose One:
 * I feel comfortable with the content presented this week
